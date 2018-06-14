@@ -1,0 +1,22 @@
+{
+  "name": "is-tmux",
+  "version": "1.0.0",
+  "description": "Detect if your code is running inside a tmux session, and if so, which pane",
+  "repository": "git+https://github.com/nukeop/is-tmux.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo --space 2 && ava"
+  },
+  "keywords": [
+    "tmux",
+    "check",
+    "detect"
+  ],
+  "author": "nukeop",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "import-fresh": "^2.0.0",
+    "xo": "^0.21.1"
+  }
+}
